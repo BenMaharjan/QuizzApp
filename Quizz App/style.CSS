@@ -1,0 +1,99 @@
+/* General styles */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.wrapper {
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+    width: 100%;   
+    text-align: center;
+}
+
+header.Quiz-header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+header.Quiz-header h1 {
+    margin: 0;
+}
+
+main {
+    padding: 20px;
+}
+
+.screen {
+    display: none;
+}
+
+.screen.show {
+    display: block;
+}
+
+fieldset {
+    border: none;
+    padding: 0;
+}
+
+
+.questions {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.answer {
+    margin-right: 10px;
+}
+
+.answerLabel {
+    margin-right: 20px;
+}
+
+.submitButton {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+}
+
+.submitButton:hover {
+    background-color: #45a049;
+}
+
+.failScreen, .passScreen {
+    padding: 20px;
+}
+
+.failScreen h1, .passScreen h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+.failScreen {
+    background-color: #f44336;
+    color: white;
+}
+
+.passScreen {
+    background-color: #4CAF50;
+    color: white;
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>ABC Quiz</title>
+</head>
+<body>
+    <div class="wrapper">
+        <header class ="Quiz-header">
+        <h1>😊QuizAcademy😊</h1>  
+        </header>
+        <main>
+            <section class="quizScreen show screen">
+                <form class="quizForm">
+                    <fieldset>
+                        <legend class="questions">Question:</legend><br>
+                        <input type="radio" value="answer1" class="answer" name="answer">
+                        <label class="answerLabel" for="answer1">answer1:</label><br>
+                        <input type="radio" value="answer2" class="answer" name="answer">
+                        <label class="answerLabel" for="answer2">answer2:</label><br>
+                        <input type="radio" value="answer3" class="answer" name="answer">
+                        <label class="answerLabel" for="answer3">answer3:</label><br>
+                        <input type="radio" value="answer4" class="answer" name="answer">
+                        <label class="answerLabel" for="answer4">answer4:</label><br>
+                    </fieldset>
+                    <button class="submitButton" type="submit">Submit</button>
+                </form>                
+            </section>
+            <section class="failScreen screen hide">
+                <h1>Incorrect</h1>
+            </section>
+            <section class="passScreen screen hide">
+                <h1>Correct</h1>
+            </section>
+        </main>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
